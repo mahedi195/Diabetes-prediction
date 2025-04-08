@@ -31,7 +31,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("💉 Diabetes Prediction App")
+st.title("💉 Diabetes Prediction ")
 
 # Sidebar for model selection
 st.sidebar.header("🔍 Select Model")
