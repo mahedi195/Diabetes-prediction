@@ -123,3 +123,4 @@ if st.button("Predict"):
     with open(history_file, mode='a', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
         writer.writerow(row)
+

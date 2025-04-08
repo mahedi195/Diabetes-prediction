@@ -49,3 +49,15 @@ joblib.dump(rf_model, "rf_model.pkl")
 joblib.dump(scaler, "scaler.pkl")
 
 print(f"✅ Models saved. Accuracies:\nLog: {log_acc:.2f}, XGB: {xgb_acc:.2f}, SVM: {svm_acc:.2f}, RF: {rf_acc:.2f}")
+
+
+
+
+'''
+python train_and_save_models.py
+py -m streamlit run diabetes_predictor_app.py
+
+
+docker run -p 8501:8501 diabetes-app
+http://localhost:8501
+'''
