@@ -1,4 +1,4 @@
-# Diabetes Prediction App
+# Diabetes Prediction 
 
 This is a machine learning application built to predict whether a person is likely to develop diabetes based on various health factors such as age, BMI, blood pressure, and more. The model is trained using **XGBoost** and is deployed with a **Streamlit** interface.
 
