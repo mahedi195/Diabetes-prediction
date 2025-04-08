@@ -28,3 +28,25 @@ Before running the app, we need to have the following installed on your system:
    The app will be available browser at http://localhost:8501.
 
 
+
+
+   '''
+push the code to github
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/mahedi195/diabetes-predictor-app.git
+git push -u origin main
+
+
+if we want to chane somewhere then upload project to github
+git  status                                                                              #checking status
+git add .                                                                                #Stage the changes
+git commit -m "Dockerized app, added Dockerfile and updated the app files"               #commit changes
+git push origin main                                                                     #push the changes to github
+
+'''
+
+
+
