@@ -17,7 +17,7 @@ This is a machine learning application built to predict whether a person is like
 
 ## Prerequisites
 
-Before running the app, you need to have the following installed on your system:
+Before running the app, we need to have the following installed on your system:
 - **Docker**: For running the app in a containerized environment.
 
 ## Setup Instructions
@@ -25,6 +25,6 @@ Before running the app, you need to have the following installed on your system:
 ### Option 1: Running the App using docker
 
 1. docker run -p 8501:8501 diabetes-app
-   The app will be available in your browser at http://localhost:8501.
+   The app will be available browser at http://localhost:8501.
 
 
