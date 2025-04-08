@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
+xgboost
+
+
+'''
+py -m streamlit run diabetes_predictor_app.py
+python train_and_save_models.py
+'''

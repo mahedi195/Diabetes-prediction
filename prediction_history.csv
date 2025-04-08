@@ -1,0 +1,19 @@
+Pregnancies,Glucose,Blood Pressure,Skin Thickness,Insulin,BMI,Diabetes Pedigree Function,Age,Prediction,Confidence,Model,Accuracy
+
+10,139,80,0,0,27.1,441.0,57,Diabetic,1.00,Logistic Regression,0.78
+10,139,80,0,0,27.1,441.0,57,Non-Diabetic,0.02,XGBoost,0.85
+10,139,80,0,0,27.1,441.0,57,Diabetic,100.00%,Logistic Regression,0.78
+10,139,80,0,0,27.1,441.0,57,Non-Diabetic,2.37%,XGBoost,0.85
+10,139,80,0,0,27.1,441.0,57,Diabetic,100.00%,Logistic Regression,0.78
+10,139,80,0,0,27.1,441.0,57,Diabetic,1.00,Logistic Regression,0.78
+10,139,80,0,0,27.1,441.0,57,Non-Diabetic,0.02,XGBoost,0.85
+10,139,80,0,0,27.1,441.0,57,Non-Diabetic,0.46,SVM,0.83
+10,139,80,0,0,27.1,441.0,57,Non-Diabetic,0.13,Random Forest,0.87
+3,126,88,41,235,39.3,0.704,27,Non-Diabetic,0.37,Logistic Regression,0.78
+3,126,88,41,235,39.3,0.704,27,Non-Diabetic,0.01,XGBoost,0.85
+3,126,88,41,235,39.3,0.704,27,Non-Diabetic,0.35,SVM,0.83
+3,126,88,41,235,39.3,0.704,27,Non-Diabetic,0.12,Random Forest,0.87
+10,139,80,0,0,27.1,441.0,57,Diabetic,100.00%,Logistic Regression,0.78
+10,139,80,0,0,27.1,441.0,57,Non-Diabetic,2.37%,XGBoost,0.85
+10,139,80,0,0,27.1,441.0,57,Non-Diabetic,45.71%,SVM,0.83
+10,139,80,0,0,27.1,441.0,57,Non-Diabetic,17.00%,Random Forest,0.87
