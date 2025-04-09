@@ -26,8 +26,11 @@ Before running the app, we need to have the following installed on your system:
 
 1. docker run -p 8501:8501 diabetes-app
    The app will be available browser at http://localhost:8501.
-2. Using Stramlit.io
+
+   
+3. Using Stramlit.io
    https://diabetes-predictio.streamlit.app/
+   
 
 
 
