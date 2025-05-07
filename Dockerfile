@@ -1,18 +1,15 @@
-# Use official Python image
-FROM python:3.10-slim
+FROM python:3.13-slim
 
-# Set working directory
 WORKDIR /app
 
-# Copy everything to the container
-COPY . .
-
-# Install dependencies
-RUN pip install --upgrade pip
+# Copy and install dependencies first for caching
+COPY requirements.txt .
 RUN pip install -r requirements.txt
 
-# Expose Streamlit's default port
-EXPOSE 8501
+# Copy app and model files
+COPY diabetes_predictor_app.py /app/
+COPY log_model.pkl svm_model.pkl rf_model.pkl scaler.pkl /app/
 
-# Run Streamlit app
-CMD ["streamlit", "run", "diabetes_predictor_app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+EXPOSE 5000
+
+CMD ["streamlit", "run", "diabetes_predictor_app.py", "--server.port=5000", "--server.address=0.0.0.0"]

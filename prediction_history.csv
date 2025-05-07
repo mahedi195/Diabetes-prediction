@@ -17,3 +17,28 @@ Pregnancies,Glucose,Blood Pressure,Skin Thickness,Insulin,BMI,Diabetes Pedigree 
 10,139,80,0,0,27.1,441.0,57,Non-Diabetic,2.37%,XGBoost,0.85
 10,139,80,0,0,27.1,441.0,57,Non-Diabetic,45.71%,SVM,0.83
 10,139,80,0,0,27.1,441.0,57,Non-Diabetic,17.00%,Random Forest,0.87
+0,0,0,0,0,0.0,0.0,0,Non-Diabetic,0.01%,Logistic Regression,0.78
+0,0,0,0,0,0.0,0.0,0,Non-Diabetic,0.03%,XGBoost,0.85
+8,133,72,0,0,32.9,0.27,39,Diabetic,50.46%,Logistic Regression,0.78
+8,133,72,0,0,32.9,0.27,39,Diabetic,94.53%,XGBoost,0.85
+8,133,72,0,0,32.9,0.27,39,Diabetic,57.16%,SVM,0.83
+8,133,72,0,0,32.9,0.27,39,Diabetic,83.00%,Random Forest,0.87
+9,119,80,35,0,29.0,0.263,29,Non-Diabetic,23.99%,Logistic Regression,0.78
+9,119,80,35,0,29.0,0.263,29,Non-Diabetic,15.28%,XGBoost,0.85
+9,119,80,35,0,29.0,0.263,29,Non-Diabetic,15.28%,XGBoost,0.85
+9,119,80,35,0,29.0,0.263,29,Non-Diabetic,25.07%,SVM,0.83
+9,119,80,35,0,29.0,0.263,29,Non-Diabetic,43.00%,Random Forest,0.87
+9,119,80,35,0,29.0,0.263,29,Non-Diabetic,43.00%,Random Forest,0.87
+6,148,72,35,0,33.6,0.627,50,Diabetic,86.00%,Random Forest,0.87
+6,148,72,35,0,33.6,0.627,50,Diabetic,74.75%,SVM,0.83
+6,148,72,35,0,33.6,0.627,50,Diabetic,96.61%,XGBoost,0.85
+6,148,72,35,0,33.6,0.627,50,Diabetic,77.10%,Logistic Regression,0.78
+6,148,72,35,0,33.6,0.627,50,Diabetic,77.10%,Logistic Regression,0.78
+0,0,0,0,0,0.0,0.0,0,Non-Diabetic,0.01%,Logistic Regression,0.78
+0,0,0,0,0,0.0,0.0,0,Non-Diabetic,0.01%,Logistic Regression,0.78
+0,0,0,0,0,0.0,0.0,0,Non-Diabetic,0.03%,XGBoost,0.85
+0,0,0,0,0,0.0,0.0,0,Non-Diabetic,0.01%,Logistic Regression,0.78
+0,0,0,0,0,0.0,0.0,0,Non-Diabetic,0.01%,Logistic Regression,0.78
+6,148,72,35,0,33.6,0.627,50,Diabetic,77.10%,Logistic Regression,0.78
+0,0,0,0,0,0.0,0.0,0,Non-Diabetic,0.01%,Logistic Regression,0.78
+0,0,0,0,0,0.0,0.0,0,Non-Diabetic,0.01%,Logistic Regression,0.78
